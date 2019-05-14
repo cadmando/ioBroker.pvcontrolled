@@ -34,6 +34,9 @@ class Pvcontrolled extends utils.Adapter {
 	async onReady() {
 		// Initialize your adapter here
 
+		// Reset the connection indicator during startup
+		this.setState("info.connection", false, true);
+
 		// The adapters config (in the instance object everything under the attribute "native") is accessible via
 		// this.config:
 		this.log.info("config option1: " + this.config.option1);

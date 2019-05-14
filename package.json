@@ -1,7 +1,7 @@
 {
   "name": "iobroker.pvcontrolled",
   "version": "0.0.1",
-  "description": "Adapter to controll devices depending on current PV production",
+  "description": "Adapter cto controll devices depending on the solar energy production",
   "author": {
     "name": "cadmando",
     "email": "dietmarsimon66@gmail.com"
@@ -9,8 +9,10 @@
   "homepage": "https://github.com/cadmando/ioBroker.pvcontrolled",
   "license": "MIT",
   "keywords": [
-    "PV",
-    "Solar"
+    "solar",
+    "pv",
+    "rules",
+    "controll"
   ],
   "repository": {
     "type": "git",

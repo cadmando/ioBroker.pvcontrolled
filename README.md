@@ -12,7 +12,7 @@
 
 ## pvcontrolled adapter for ioBroker
 
-Adapter to controll devices depending on current PV production
+Adapter cto controll devices depending on the solar energy production
 
 ## Developer manual
 This section is intended for the developer. It can be deleted later
