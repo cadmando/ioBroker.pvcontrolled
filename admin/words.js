@@ -15,8 +15,8 @@ systemDictionary = {
 		"zh-cn": "pvcontrolled的适配器设置"
 	},
 	"option1": {
-		"en": "option1",
-		"de": "option1",
+		"en": "option13",
+		"de": "option12",
 		"ru": "option1",
 		"pt": "option1",
 		"nl": "option1",
