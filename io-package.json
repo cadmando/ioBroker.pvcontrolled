@@ -1,0 +1,97 @@
+{
+	"common": {
+		"name": "pvcontrolled",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "PV-Controlled",
+		"titleLang": {
+			"en": "PV-Controlled",
+			"de": "PV-gesteuert",
+			"ru": "PV-Controlled",
+			"pt": "Controlado por PV",
+			"nl": "-PV Controlled",
+			"fr": "PV-contrôlé",
+			"it": "PV-Controlled",
+			"es": "Controlado por PV",
+			"pl": "PV-Controlled",
+			"zh-cn": "PV-控制"
+		},
+		"desc": {
+			"en": "Adapter to controll devices depending on current PV production",
+			"de": "Adapter zur Steuerung von Geräten in Abhängigkeit von der aktuellen PV-Produktion",
+			"ru": "Адаптер для управления устройствами в зависимости от текущего производства PV",
+			"pt": "Adaptador para controlar dispositivos dependendo da produção atual de PV",
+			"nl": "Adapter naar stuurapparaten afhankelijk van de huidige PV-productie",
+			"fr": "Adaptateur pour contrôler les appareils en fonction de la production PV actuelle",
+			"it": "Adattatore per dispositivi di controllo in base alla produzione fotovoltaica attuale",
+			"es": "Adaptador para controlar dispositivos en función de la producción fotovoltaica actual.",
+			"pl": "Adapter do sterowania urządzeniami w zależności od aktualnej produkcji PV",
+			"zh-cn": "适配器控制设备取决于当前的PV生产"
+		},
+		"authors": [
+			"cadmando <dietmarsimon66@gmail.com>"
+		],
+		"keywords": [
+			"PV",
+			"Solar"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "pvcontrolled.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/cadmando/ioBroker.pvcontrolled/master/admin/pvcontrolled.png",
+		"readme": "https://github.com/cadmando/ioBroker.pvcontrolled/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "logic",
+		"compact": true,
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "PV-Controlled",
+				"de": "PV-gesteuert",
+				"ru": "PV-Controlled",
+				"pt": "Controlado por PV",
+				"nl": "-PV Controlled",
+				"fr": "PV-contrôlé",
+				"it": "PV-Controlled",
+				"es": "Controlado por PV",
+				"pl": "PV-Controlled",
+				"zh-cn": "PV-控制"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"admin": ">=3.0.0"
+			},
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
