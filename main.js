@@ -145,7 +145,7 @@ class Pvcontrolled extends utils.Adapter {
 	// }
 
 }
-
+//Nur Kommentar um was zu testen
 // @ts-ignore parent is a valid property on module
 if (module.parent) {
 	// Export the constructor in compact mode
